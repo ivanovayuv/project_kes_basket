@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="dobavit" Content="Добавить " HorizontalAlignment="Left" Margin="34,61,0,0" VerticalAlignment="Top" Width="138" Height="78" RenderTransformOrigin="0.5,0.5" Click="dobavit_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="179.248"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="udalit" Content="Удалить" HorizontalAlignment="Left" Height="82" Margin="207,57,0,0" VerticalAlignment="Top" Width="139"/>
+        <Button x:Name="redaktirovat" Content="Редактировать" HorizontalAlignment="Left" Height="81" Margin="32,168,0,0" VerticalAlignment="Top" Width="142"/>
+
     </Grid>
 </Window>

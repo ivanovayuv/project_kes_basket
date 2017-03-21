@@ -37,5 +37,12 @@ namespace WpfApplication1
                 mass.Add(k);
             }
         }
+
+        private void dobavit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Window1 w1 = new Window1();
+            w1.Show();
+        }
     }
 }
